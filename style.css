@@ -20,6 +20,14 @@ body {
     text-shadow: 2px 2px 2px black;
 }
 
-.thejimmy {
-    width: 30rem;
+@media screen and (max-width: 768px) {
+    .thejimmy {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .thejimmy {
+        width: 30rem;
+    }
 }
